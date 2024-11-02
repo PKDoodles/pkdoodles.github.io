@@ -91,20 +91,19 @@
     aspect-ratio: 16 / 9;
     display: inline-block;
     position: relative;
-    font-size: 64px;
+    font-size: 3.5vw;
     background-image: url('WebsiteBackground.png');
     background-size: cover;
     border-radius: 20px;
-    margin: 50px;
-    /*padding: 150px 250px;*/
+    margin: 5%;
     width: 30%;
 }
 
-.bottom-left{
-    position: absolute;
+.top-left{
+    position: relative;
     color: rgb(255, 225, 127);
     text-shadow: 2px 2px #333;
     text-decoration-line: underline;
-    bottom: 10px;
-    left: 15px;
+    top: 5%;
+    left: 5%;
 }
