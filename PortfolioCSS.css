@@ -1,7 +1,9 @@
 
 
 .header {
-    padding: 120px; /*Main header padding */
+    position: relative;
+    aspect-ratio: 3.1 /  1;
+    width: 100%;
     text-align: center;
     line-height: 50%;
     text-shadow: 2px 2px #333 ;
@@ -14,40 +16,61 @@
 
 
 .header h1 {
-    margin-top: 200px;
-    font-size: 80px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 45%;
+    font-size: 6.5vw;
 }
 
 .header p {
-    font-size: 40px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 70%;
+    font-size: 3.5vw;
 }
 
 .navbar {
+    position: relative;
+    aspect-ratio: 20 / 1;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     overflow: hidden;
     background-color: #9d7a00;
-    padding: 20px 20px;
-    margin-bottom: 10px;
+    margin-bottom: 0.5%;
 }
 
 .navbar a {
+
     display: inline-block;
-    padding: 20px 30px;
+    width: 6%;
+    height: 60%;
     border-radius: 30px;
-    margin-left: 100px;
-    margin-right: 100px;
-    background-color: #050717;
+    margin-left: 5%;
+    margin-right: 5%;
     color: white;
-    text-align: center;
     text-decoration: none;
+    background-color: #050717;
+
 }
 
 
 .navbar a:hover {
     background-color: rgb(255, 225, 127);
     color: black;
+}
+
+.AlignText {
+    position: relative;
+    font-size: 1vw;
+    text-align: center;
+    line-height: 0%;
+    top: 50%;
+    width: 100%;
+
 }
 
 .underline {
@@ -61,14 +84,27 @@
     justify-content: center;
     align-items: center;
     align-content: flex-start;
-    color: white ;
 
 }
 
-.contentbox content {
+.contentbox content1 {
+    aspect-ratio: 16 / 9;
     display: inline-block;
-    background-color: #9d7a00;
+    position: relative;
+    font-size: 64px;
+    background-image: url('WebsiteBackground.png');
+    background-size: cover;
     border-radius: 20px;
     margin: 50px;
-    padding: 100px 140px;
+    /*padding: 150px 250px;*/
+    width: 30%;
+}
+
+.bottom-left{
+    position: absolute;
+    color: rgb(255, 225, 127);
+    text-shadow: 2px 2px #333;
+    text-decoration-line: underline;
+    bottom: 10px;
+    left: 15px;
 }
