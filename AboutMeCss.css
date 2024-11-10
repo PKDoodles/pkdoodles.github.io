@@ -1,0 +1,40 @@
+.profilepic {
+    position: relative;
+    aspect-ratio: 2.16 / 1;
+    justify-content: center;
+    margin: auto;
+    margin-top: 1%;
+    background-image: url("Myself.jpg");
+    background-size: cover;
+    width: 50%;
+    text-align: center;   
+}
+
+.profilepic pptext {
+    position: relative;
+    color: rgb(255, 225, 127);
+    text-shadow: 2px 2px #333;
+    text-decoration-line: underline;
+    font-size: 3.5vw;
+    top: 5%;
+    }
+
+.aboutmetb {
+    position: relative;
+    aspect-ratio: 2.16 / 1;
+    justify-content: center;
+    margin: auto;
+    margin-top: 1%;
+    width: 50%;
+    text-align: center;   
+}
+
+.aboutmetb aboutmetext {
+    position: relative;
+    aspect-ratio: 12/9;
+    text-align: center;
+    font-size: 1vw;
+    color: white;
+    justify-content: center;
+    margin: auto;
+}
