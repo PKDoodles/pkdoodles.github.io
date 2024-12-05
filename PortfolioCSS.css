@@ -7,7 +7,7 @@
     text-align: center;
     line-height: 50%;
     text-shadow: 2px 2px #333 ;
-    background-image: url('WebsiteBackground.png');
+    background-image: url('Photos/WebsiteBackground.png');
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -92,8 +92,9 @@
     display: inline-block;
     position: relative;
     font-size: 3.5vw;
-    background-image: url('WebsiteBackground.png');
+    background-image: url('Photos/WebsiteBackground.png');
     background-size: cover;
+    box-shadow: 2px 2px rgb(228, 184, 40);
     border-radius: 20px;
     margin: 2%;
     width: 30%;
