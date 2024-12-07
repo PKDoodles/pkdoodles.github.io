@@ -31,6 +31,54 @@
     font-size: 3.5vw;
 }
 
+
+.facontainer {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    padding: 1.5%;
+    z-index: 1;
+    width: 20%;
+    aspect-ratio: 6 / 1;
+}
+
+.fa {
+    position: relative;
+    z-index: 2;
+    aspect-ratio: 1 / 1;
+    padding: 10%;
+    font-size: 30vw;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 2px 2px rgb(228, 184, 40);
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+    margin: 2% 2%;
+  }
+
+.fa:hover {
+    background-color: rgb(255, 225, 127);
+    color: #050717;
+}
+
+.fa-linkedin {
+    background-color: #050717;
+    color: rgb(255, 225, 127)
+  }
+
+.fa-instagram {
+    background-color: #050717;
+    color: rgb(255, 225, 127)
+  }
+
+.fa-envelope {
+    background-color: #050717;
+    color: rgb(255, 225, 127)
+  }
+
+
 .navbar {
     position: relative;
     aspect-ratio: 20 / 1;
