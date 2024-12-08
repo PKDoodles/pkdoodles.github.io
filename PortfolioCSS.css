@@ -6,7 +6,7 @@
     width: 100%;
     text-align: center;
     line-height: 50%;
-    text-shadow: 2px 2px #333 ;
+    text-shadow: 0.15vw 0.15vw #333 ;
     background-image: url('Photos/WebsiteBackground.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -52,7 +52,7 @@
     font-size: 30vw;
     text-align: center;
     text-decoration: none;
-    box-shadow: 2px 2px rgb(228, 184, 40);
+    box-shadow: 0.15vw 0.15vw rgb(228, 184, 40);
     border-radius: 50%;
     transition: all 0.3s ease-in-out;
     margin: 2% 2%;
@@ -142,7 +142,7 @@
     font-size: 3.5vw;
     background-image: url('Photos/WebsiteBackground.png');
     background-size: cover;
-    box-shadow: 2px 2px rgb(228, 184, 40);
+    box-shadow: 0.15vw 0.15vw rgb(228, 184, 40);
     border-radius: 20px;
     margin: 2%;
     width: 30%;
@@ -156,7 +156,7 @@
 .top-left{
     position: relative;
     color: rgb(255, 225, 127);
-    text-shadow: 2px 2px #333;
+    text-shadow: 0.15vw 0.15vw #333;
     text-decoration-line: underline;
     top: 5%;
     left: 5%;
@@ -165,7 +165,7 @@
 .bottom-left{
     position: relative;
     color: rgb(255, 225, 127);
-    text-shadow: 2px 2px #333;
+    text-shadow: 0.15vw 0.15vw #333;
     text-decoration-line: underline;
     top: 70%;
     left: 5%;
