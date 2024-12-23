@@ -140,7 +140,7 @@
 .boxofitems vidcontainer {
     margin: 1%;
     aspect-ratio: 12 / 16;
-    width: 55%;
+    width: 48%;
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
@@ -151,6 +151,6 @@
     position: relative;
     display: block;
     aspect-ratio: 16 / 9;
-    width: 82%;
+    width: 90%;
 }
 
