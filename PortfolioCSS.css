@@ -95,7 +95,7 @@
     overflow: hidden;
     background-color: #9d7a00;
     margin-bottom: 0.5%;
-    top: 9.5vw
+    top: 9.7vw
 }
 
 .navbar a {
@@ -131,8 +131,8 @@
     position: sticky;
     z-index: 1;
     width: 100%;
-    top: 27%;
-    aspect-ratio: 150 / 1 ;
+    top: 13.5vw;
+    aspect-ratio: 120 / 1 ;
     background-color: #9d7a00;
 }
 
