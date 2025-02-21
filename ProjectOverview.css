@@ -1,9 +1,8 @@
 .ProjectTitletb {
     position: relative;
-    aspect-ratio: 2.16 / 0.4;
     justify-content: center;
     margin: auto;
-    width: 25%;
+    width: 25vw;
     text-align: center;  
 }
 
@@ -12,22 +11,89 @@
     color: rgb(255, 225, 127);
     text-shadow: 0.15vw 0.15vw #333;
     text-decoration-line: underline;
-    font-size: 3.5vw;
-    }
+    font-size: 2.5vw;
+}
+
+.MiniProjectDescription {
+    position: relative;
+    justify-content: center;
+    margin: auto;
+    width: 30vw;
+    text-align: center;  
+}
+
+.MiniProjectDescription text {
+    position: relative;
+    color: white;
+    font-size: 1vw;
+}
+
+
 
 .boxofitems {
-    aspect-ratio: 16 / 9;
-    width: 100%;
+    width: 90vw;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: flex-start;
+    margin: auto;
+}
+
+.boxofitems container {
+    width: 40vw;
+    padding: 1vw;
     display: flex;
     flex-wrap: wrap;
-    justify-content: left;
     align-content: flex-start;
 }
 
-.boxofitems imagecontainer {
+.boxofitems containervid {
+    width: 40vw;
+    padding: 1vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.boxofitems containersmall {
+    width: 20vw;
+    flex-wrap: wrap;
+    margin: 1vw;
+    align-content: flex-start;
+}
+
+.boxofitems h1 {
+    margin: 0%;
+    position: relative;
+    font-weight: 300;
+    color: rgb(255, 225, 127);
+    text-shadow: 0.15vw 0.15vw #333;
+    text-decoration-line: underline;
+    font-size: 2vw;
+}
+
+.boxofitems h2 {
+    margin: 0%;
+    position: relative;
+    font-weight: 300;
+    color: rgb(228, 184, 40);
+    text-shadow: 0.15vw 0.15vw #333;
+    font-size: 1.7vw;   
+}
+
+.boxofitems p {
     margin: 1%;
-    aspect-ratio: 12 / 16;
-    width: 55%;
+    position: relative;
+    font-weight: 400;
+    color: white;
+    line-height: 1.6;
+    font-size: 1vw;
+}
+
+
+.boxofitems imagecontainer {
+    width: 40vw;
+    height: 40vw;
+    padding: 1vw;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
@@ -35,23 +101,48 @@
     grid-gap: 1%;
 }
 
-.boxofitems imagecontainer img {
+.boxofitems imagecontainerlarge {
+    width: 100vw;
+    height: 40vw;
+    padding: 1vw;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-auto-flow: dense;
+    grid-gap: 1%;
+}
+
+.boxofitems imagecontainerlong {
+    width: 100vw;
+    height: 20vw;
+    padding: 1vw;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-auto-flow: dense;
+    grid-gap: 1%;
+}
+
+.boxofitems imagecontainersmall {
+    width: 40vw;
+    height: 20vw;
+    padding: 1vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-auto-flow: dense;
+    grid-gap: 1%;
+}
+
+
+.boxofitems  img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    box-shadow: 0.15vw 0.15vw rgb(228, 184, 40);
+    contain: size;
+    box-shadow: 0.10vw 0.10vw rgb(228, 184, 40);
 }
 
-.boxofitems largecontainer {
-    margin: 1%;
-    aspect-ratio: 12 / 16;
-    width: 55%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    grid-auto-flow: dense;
-    grid-gap: 1%;
-}
 
 .horizontal{
     grid-column: span 2;
@@ -74,82 +165,7 @@
     grid-row: span 1;
 }
 
-.boxofitems area1 {
-    aspect-ratio: 16 / 9;
-    display: flex;
-    flex-wrap: wrap;
-    position: relative;
-    font-size: 3.5vw;
-    width: 43%;
-    justify-content: left;
-    align-content: flex-start;
-}
 
 
-.boxofitems b {
-    margin: 2%;
-    aspect-ratio: 4 / 7.5;
-    position: relative;
-    width: 46%;
-}
 
-.boxofitems blarge {
-    margin: 2%;
-    aspect-ratio: 4 / 3.75;
-    position: relative;
-    width: 100%;
-}
-
-.boxofitems h1 {
-    margin: 0%;
-    position: relative;
-    font-weight: 600;
-    color: rgb(255, 225, 127);
-    text-shadow: 0.15vw 0.15vw #333;
-    text-decoration-line: underline;
-    font-size: 2vw;
-}
-
-.boxofitems h2 {
-    margin: 0%;
-    position: relative;
-    font-weight: 600;
-    color: rgb(228, 184, 40);
-    text-shadow: 0.15vw 0.15vw #333;
-    font-size: 1.7vw;   
-}
-
-
-.boxofitems p {
-    margin: 1%;
-    position: relative;
-    font-weight: 400;
-    color: white;
-    line-height: 1.6;
-    font-size: 1.2vw;
-}
-
-.centered-vid {
-    aspect-ratio: 16/9;
-    display: block;
-    margin: auto;
-    width: 70%;
-}
-
-.boxofitems vidcontainer {
-    margin: 1%;
-    aspect-ratio: 12 / 16;
-    width: 48%;
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-}
-
-.side-vid {
-    margin: auto;
-    position: relative;
-    display: block;
-    aspect-ratio: 16 / 9;
-    width: 90%;
-}
 
