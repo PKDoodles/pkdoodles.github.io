@@ -23,8 +23,8 @@
     position: absolute;
     text-align: center;
     width: 100%;
-    top: 10%;
-    font-size: 4.5vw;
+    top: 30%;
+    font-size: 4.2vw;
     
 }
 
@@ -32,7 +32,7 @@
     position: absolute;
     text-align: center;
     width: 100%;
-    top: 50%;
+    top: 72%;
     font-size: 1.5vw;
 }
 
@@ -151,6 +151,7 @@
     font-size: 3.5vw;
     background-image: url('Photos/WebsiteBackground.png');
     background-size: cover;
+    text-decoration: none;
     box-shadow: 0.15vw 0.15vw rgb(228, 184, 40);
     border-radius: 20px;
     margin: 2%;
@@ -181,3 +182,13 @@
 
 }
 
+.bottom-description{
+    text-align: center;
+    margin: auto;
+    top: 80%;
+    position: relative;
+    font-weight: 400;
+    color: white;
+    line-height: 1.6;
+    font-size: 0.9vw;
+}
