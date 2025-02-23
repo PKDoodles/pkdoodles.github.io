@@ -78,6 +78,28 @@
     text-shadow: 0.15vw 0.15vw #333;
     font-size: 1.7vw;   
 }
+.boxofitems h2 a  {
+
+    display: inline-block;
+    margin: auto;
+    width: 10vw;
+    height: 2.5vw;
+    border-radius: 2vw;
+    font-size: 1vw;
+    color: white;
+    text-align: center;
+    
+    text-decoration: none;
+    background-color: rgb(228, 184, 40);
+    transition: all 0.3s ease-in-out;
+
+
+}
+
+.boxofitems h2 a:hover{
+    background-color: rgb(255, 225, 127);
+    color: black;
+}
 
 .boxofitems p {
     margin: 1%;
