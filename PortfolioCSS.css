@@ -5,13 +5,13 @@
     margin: 0%;
     padding: 0%;
     top: 0%;
-    aspect-ratio: 10 /  1;
+    aspect-ratio: 20 /  1;
     width: 100%;
     z-index: 1;
     text-align: center;
     line-height: 50%;
     text-shadow: 0.15vw 0.15vw #333 ;
-    background-image: url('Photos/WebsiteBackground.png');
+    background-color: #050717;
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -23,7 +23,6 @@
     position: absolute;
     text-align: center;
     width: 100%;
-    top: 30%;
     font-size: 4.2vw;
     
 }
@@ -32,7 +31,7 @@
     position: absolute;
     text-align: center;
     width: 100%;
-    top: 72%;
+    top: 70%;
     font-size: 1.5vw;
 }
 
@@ -95,13 +94,13 @@
     overflow: hidden;
     background-color: #9d7a00;
     margin-bottom: 0.5%;
-    top: 9.7vw
+    top: 7vw
 }
 
 .navbar a {
     display: inline-block;
     width: 6%;
-    height: 85%;
+    height: 65%;
     border-radius: 30px;
     margin-left: 5%;
     margin-right: 5%;
@@ -131,8 +130,8 @@
     position: sticky;
     z-index: 1;
     width: 100%;
-    top: 13.5vw;
-    aspect-ratio: 120 / 1 ;
+    top: 10.7vw;
+    aspect-ratio: 150 / 1 ;
     background-color: #9d7a00;
 }
 
@@ -155,11 +154,32 @@
     box-shadow: 0.15vw 0.15vw rgb(228, 184, 40);
     border-radius: 20px;
     margin: 2%;
+    margin-bottom: 5%;
+    width: 20%;
+    transition: all 0.3s ease-in-out;
+}
+
+.contentbox b {
+    aspect-ratio: 16 / 9;
+    display: inline-block;
+    position: relative;
+    font-size: 3.5vw;
+    background-image: url('Photos/WebsiteBackground.png');
+    background-size: cover;
+    text-decoration: none;
+    box-shadow: 0.15vw 0.15vw rgb(228, 184, 40);
+    border-radius: 20px;
+    margin: 2%;
+    margin-bottom: 5%;
     width: 30%;
     transition: all 0.3s ease-in-out;
 }
 
 .contentbox a:hover {
+    transform: scale(1.1);
+}
+
+.contentbox b:hover {
     transform: scale(1.1);
 }
 
