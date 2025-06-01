@@ -2,16 +2,15 @@
     position: relative;
     justify-content: center;
     margin: auto;
-    width: 25vw;
     text-align: center;  
 }
 
 .ProjectTitletb text{
     position: relative;
-    color: rgb(255, 225, 127);
+    color: #E2DBC5;
     text-shadow: 0.15vw 0.15vw #333;
     text-decoration-line: underline;
-    font-size: 3vw;
+    font-size: 5vw;
 }
 
 .MiniProjectDescription {
@@ -28,10 +27,38 @@
     font-size: 1vw;
 }
 
+.linkbar {
+    height: 4vw;
+    width: 30%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
 
+.linkbar a {
+    display: inline-block;
+    width: 40%;
+    height: 65%;
+    border-radius: 30px;
+    margin: auto;
+    color: white;
+    text-align: center;
+    line-height: 2.7;
+    font-size: 1vw;
+    text-decoration: none;
+    background-color: #BFA07A;
+    transition: all 0.3s ease-in-out;
+}
+
+.linkbar a:hover {
+    background-color: #E2DBC5;
+    color: black;
+}
 
 .boxofitems {
-    width: 90vw;
+    width: 95vw;
     display: flex;
     flex-flow: wrap;
     justify-content: flex-start;
@@ -40,6 +67,12 @@
 
 .boxofitems container {
     width: 40vw;
+    padding: 1vw;
+    align-content: flex-start;
+}
+
+.boxofitems containerlarge {
+    width: 50vw;
     padding: 1vw;
     align-content: flex-start;
 }
@@ -53,7 +86,7 @@
 }
 
 .boxofitems containersmall {
-    width: 20vw;
+    width: 25vw;
     flex-wrap: wrap;
     margin: 1vw;
     align-content: flex-start;
@@ -61,36 +94,37 @@
 
 .boxofitems h1 {
     margin: 0%;
+    padding-bottom: 0.1vw;
     position: relative;
     font-weight: 300;
-    color: rgb(255, 225, 127);
-    text-shadow: 0.15vw 0.15vw #333;
+    color: #E2DBC5;
     text-decoration-line: underline;
     font-size: 2vw;
+    text-align: center;
 }
 
 .boxofitems h2 {
     justify-content: left;
+    text-align: center;
     margin: 0%;
     position: relative;
     font-weight: 300;
-    color: rgb(228, 184, 40);
-    text-shadow: 0.15vw 0.15vw #333;
-    font-size: 1.7vw;   
+    color: #BFA07A;
+    font-size: 1.6vw;   
 }
 .boxofitems h2 a  {
 
     display: inline-block;
-    margin: auto;
+    margin-left: 25%;
     width: 10vw;
     height: 2.5vw;
     border-radius: 2vw;
     font-size: 1vw;
     color: white;
     text-align: center;
-    
+    line-height: 2.5;
     text-decoration: none;
-    background-color: rgb(228, 184, 40);
+    background-color: #BFA07A;
     transition: all 0.3s ease-in-out;
 
 
@@ -106,7 +140,7 @@
     position: relative;
     font-weight: 400;
     color: white;
-    line-height: 1.6;
+    line-height: 1.4;
     font-size: 1vw;
 }
 
@@ -120,6 +154,7 @@
     grid-template-rows: repeat(4, 1fr);
     grid-auto-flow: dense;
     grid-gap: 1%;
+    
 }
 
 .boxofitems imagecontainerlarge {
@@ -172,7 +207,7 @@
     height: 100%;
     object-fit: cover;
     contain: size;
-    box-shadow: 0.10vw 0.10vw rgb(228, 184, 40);
+    box-shadow: 0.10vw 0.10vw #BFA07A;
 }
 
 
