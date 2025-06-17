@@ -151,17 +151,81 @@
     background-color: #BFA07A;
 }
 
+.filtercontainer {
+    height: 4vw;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    gap: 3%;
+    margin-bottom: 3%;
+}
+
+.filterbutton {
+    display: inline-block;
+    width: 40%;
+    height: 65%;
+    border-radius: 30px;
+    border: none ;
+    margin: auto;
+    color: white;
+    text-align: center;
+    line-height: 2.7;
+    font-size: 1vw;
+    text-decoration: none;
+    background-color: #BFA07A;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.filterbutton:hover {
+    background-color: #E2DBC5;
+    color: black;
+}
+
+.filterbutton.active {
+    background-color: #E2DBC5;
+    color: black;
+}
+
+.linkbar a:hover {
+    background-color: #E2DBC5;
+    color: black;
+}
+
+
+.ProjectTitletb {
+    position: relative;
+    justify-content: center;
+    margin: auto;
+    text-align: center;  
+}
+
+.ProjectTitletb text{
+    position: relative;
+    color: #E2DBC5;
+    text-shadow: 0.15vw 0.15vw #333;
+    text-decoration-line: underline;
+    font-size: 2vw;
+}
+
 .contentbox {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    align-content: flex-start;
+    align-content: space-around;
+    gap: 3%;
+    border-radius: 20px;
 }
 
 .contentbox a {
     aspect-ratio: 16 / 9;
-    display: inline-block;
+    display: none;
     position: relative;
     font-size: 3vw;
     background-image: url('Photos/WebsiteBackground.png');
@@ -169,30 +233,13 @@
     text-decoration: none;
     box-shadow: 0.15vw 0.15vw #BFA07A;
     border-radius: 20px;
+    width: 25%;
     margin: 2%;
-    margin-bottom: 5%;
-    width: 20%;
     transition: all 0.3s ease-in-out;
     vertical-align: middle;
     text-align: center;
     
     
-}
-
-.contentbox b {
-    aspect-ratio: 16 / 9;
-    display: inline-block;
-    position: relative;
-    font-size: 3.5vw;
-    background-image: url('Photos/WebsiteBackground.png');
-    background-size: cover;
-    text-decoration: none;
-    box-shadow: 0.15vw 0.15vw #BFA07A;
-    border-radius: 20px;
-    margin: 2%;
-    margin-bottom: 5%;
-    width: 30%;
-    transition: all 0.3s ease-in-out;
 }
 
 .contentbox a:hover {
@@ -202,6 +249,14 @@
 .contentbox b:hover {
     transform: scale(1.1);
 }
+
+a.show {
+  display: inline-block;
+}
+
+
+
+
 
 .centre{
     position: relative;
@@ -219,7 +274,7 @@
 .bottom-description{
     text-align: center;
     margin: auto;
-    top: 80%;
+    top: 82%;
     position: relative;
     font-weight: 400;
     color: white;

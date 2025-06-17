@@ -17,7 +17,7 @@
     position: relative;
     justify-content: center;
     margin: auto;
-    width: 30vw;
+    width: 50vw;
     text-align: center;  
 }
 
@@ -230,6 +230,11 @@
 .small {
     grid-column: span 1;
     grid-row: span 1;
+}
+
+.large {
+    grid-column: span 3;
+    grid-row: span 2;
 }
 
 

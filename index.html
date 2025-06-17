@@ -16,7 +16,6 @@
 
   <body style="background-color: #050717; padding: 0%; margin: 0%;">
 
-
     <div class="header">
     <h1>Luke Pierson</h1> 
     <p>Game Designer</p> 
@@ -40,75 +39,115 @@
       </tabcontainer>
     </div>
 
-    <div class="contentbox">
+    <div class="filtercontainer" id="myFilterContainer">
+      <button class="filterbutton active" onclick="filterSelection('all')" target="_blank" style="text-shadow: none;"> All </button>
+      <button class="filterbutton" onclick="filterSelection('UE5')"  target="_blank" style="text-shadow: none;"> Unreal Engine  </button>
+      <button class="filterbutton" onclick="filterSelection('Unity')" target="_blank" style="text-shadow: none;"> Unity </button>
+      <button class="filterbutton" onclick="filterSelection('Art')" target="_blank" style="text-shadow: none;"> Art </button>
+      <button class="filterbutton" onclick="filterSelection('other')" target="_blank" style="text-shadow: none;"> Other Projects </button>
+    </div>
 
-      <a  href= "Slap-Stick.html" style= "background-image: url('Photos/Thumbnails/GlassRoomThumbnail.png')">
+
+    <div class="contentbox" style= "padding-bottom: 6%;">
+
+      <a class ="project UE5" href= "Slap-Stick.html" style= "background-image: url('Photos/Thumbnails/GlassRoomThumbnail.png')">
         <div class="centre"> Slap-Stick</div>
         <div class="bottom-description"> Level Design / Blueprint Scripting / Quest Design / Gameplay Design</div>
       </a>
 
-      <a  href= "TankGame!.html" style= "background-image: url('Photos/Thumbnails/TankGameThumbnail.png')">
+      <a class ="project Unity" href= "PotionCommotion.html" style= "background-image: url('Photos/Thumbnails/PotionCommotionThumbnailDark.png');">
+        <div class="centre">PotionCommotion</div>
+        <div class="bottom-description"> Producer / Designer / Excel / Unity / Management</div>
+      </a>
+
+
+      <a class ="project UE5" href= "TankGame!.html" style= "background-image: url('Photos/Thumbnails/TankGameThumbnail.png')">
         <div class="centre"> Tank Game!</div>
         <div class="bottom-description"> Level Design / Blueprint Scripting / VR Design / Arduino Usage</div>
       </a>
 
-      <a href="Systems Design.html" style="background-image: url('Photos/Thumbnails/StarterIslandThumbnail.png');">
+
+
+      <a class ="project" href= "Slap-Stick.html" style= "background-image: url('Photos/Thumbnails/GlassRoomThumbnail.png'); aspect-ratio: 8 / 6; width: 30%; margin: 0%; margin-bottom: 5%;">
+        <div class="centre"> Slap-Stick</div>
+        <div class="bottom-description"  style="top: 90%;;"> Level Design / Blueprint Scripting / Quest Design / Gameplay Design</div>
+      </a>
+
+
+      <a class ="project" href="PotionCommotion.html" style="background-image: url('Photos/Thumbnails/PotionCommotionThumbnail.png'); aspect-ratio: 8 / 6; width: 30%; margin: 0%; margin-bottom: 5%;">
+        <div class="centre"></div>
+        <div class="bottom-description"  style="top: 102%;"> Producer / Designer / Excel / Unity / Management</div>
+      </a>
+
+      <a class ="project" href= "TankGame!.html" style= "background-image: url('Photos/Thumbnails/TankGameThumbnail.png'); aspect-ratio: 8 / 6; width: 30%; margin: 0%; margin-bottom: 5%;">
+        <div class="centre"> Tank Game!</div>
+        <div class="bottom-description"  style="top: 90%;"> Level Design / Blueprint Scripting / VR Design / Arduino Usage</div>
+      </a>
+
+
+      <a class ="project UE5" href="Systems Design.html" style="background-image: url('Photos/Thumbnails/StarterIslandThumbnail.png');">
         <div class="centre"> BellSong </div>
         <div class="bottom-description"> Blueprint Scripting / AI / Animation Blending / Systems Design</div>
       </a>
       
-      <a  href= "Sentinel.html" style= "background-image: url('Photos/Thumbnails/SentinelThumbnail.png')">
+
+      <a class ="project UE5"  href= "Sentinel.html" style= "background-image: url('Photos/Thumbnails/SentinelThumbnail.png')">
         <div class="centre"> Sentinel</div>
         <div class="bottom-description">Blueprint Scripting / Gameplay Design / Level and Environment Design</div>
       </a>
 
-      <a  href= "HeartAttack.html" style= "background-image: url('Photos/Thumbnails/HeartAttackThumbnail.png')">
+
+      <a class="project Unity" href= "HeartAttack.html" style= "background-image: url('Photos/Thumbnails/HeartAttackThumbnail.png')">
         <div class="centre"> Heart Attack</div>
         <div class="bottom-description"> Unity Engine / C# Scripting / Level Design / Systems Design</div>
       </a>
   
-      <a href="SteamFunk.html" style="background-image: url('Photos/Thumbnails/TankThumbnail.png');">
+      <a class="project UE5" href="SteamFunk.html" style="background-image: url('Photos/Thumbnails/TankThumbnail.png');">
         <div class="centre"> SteamFunk </div>
         <div class="bottom-description">Level and Environment Design / Gameplay Design / VFX / Blueprint Scripting</div>
       </a>
 
-      <a href="Mainspring.html" style="background-image: url('Photos/Thumbnails/MainspringThumbnail.png');">
+      <a class="project other" href="Mainspring.html" style="background-image: url('Photos/Thumbnails/MainspringThumbnail.png');">
         <div class="centre"> Mainspring </div>
         <div class="bottom-description">Pre-Production / Systems Design / Narrative Design / Production Management</div>
       </a>
 
-      <a href="Avarice.html" style="background-image: url('Photos/Thumbnails/Avarice.png');">
+
+      <a class="project other" href="Avarice.html" style="background-image: url('Photos/Thumbnails/Avarice.png');">
         <div class="centre"> Avarice </div>
         <div class="bottom-description">Narrative Design and Research / Interactive Storytelling</div>
       </a>
-    </div>
 
-    
-    <div class="contentbox" style= "padding-bottom: 6%;">
-    <a href = "Animation.html" style ="background-image: url('Photos/Thumbnails/AnimationThumbnail.png'); font-size: 3vw ;">
+    <a class="project Art" href = "Animation.html" style ="background-image: url('Photos/Thumbnails/AnimationThumbnail.png'); font-size: 3vw ;">
       <div class="centre"> 3D Animation</div>
       <div class="bottom-description"> Animation / Maya / Motionbuilder / Animation Principles / Mocap </div>
     </a>
 
-    <a href = "GraphicsDesign.html" style="background-image: url('Photos/Thumbnails/GraphicDesignThumbnail.png');">
+    <a class="project Art" href = "GraphicsDesign.html" style="background-image: url('Photos/Thumbnails/GraphicDesignThumbnail.png');">
       <div class="centre"> Graphic Design </div>
       <div class="bottom-description"> Photoshop / Krita / Physical Art / Typography / Adobe Illustrator </div>
     </a>
 
-    <a href = "3DModelling.html" style="background-image: url('Photos/Thumbnails/3DModellingThumbnail.png');">
+    <a class="project Art" href = "3DModelling.html" style="background-image: url('Photos/Thumbnails/3DModellingThumbnail.png');">
       <div class="centre"> 3D Modelling </div>
       <div class="bottom-description"> 3DS Max / ZBrush / Substance Painter / Photoshop</div>
     </a>
 
-    <a href = "2DArt.html" style="background-image: url('Photos/Thumbnails/2DArtThumbnail.png');">
+    <a class="project Art" href = "2DArt.html" style="background-image: url('Photos/Thumbnails/2DArtThumbnail.png');">
       <div class="centre"> 2D Art </div>
       <div class="bottom-description"> Krita / Photoshop </div>
     </a>
 
-    <a href = "Website.html" style="background-image: url('Photos/WebsitePhotos/Code.png');">
+    <a class="project other" href = "Website.html" style="background-image: url('Photos/WebsitePhotos/Code.png');">
       <div class="centre"> This Website! </div>
       <div class="bottom-description"> HTML / CSS / Visual Studio / General Programming</div>
     </a>
+
+
+    </div>
+
+  
+    <div class="contentbox" style= "padding-bottom: 6%;">
 
   </div>
 
@@ -118,5 +157,7 @@
     <a href="mailto:luke.pierson04@gmail.com" class="fa fa-envelope" target="_blank"></a>
     <a href="https://www.instagram.com/pkd00dles/" class="fa fa-instagram" target="_blank"></a>
   </div>  
+
+  <script src="PortfolioJS.js"></script>
   </body>
 </html>
