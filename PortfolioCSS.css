@@ -254,10 +254,6 @@ a.show {
   display: inline-block;
 }
 
-
-
-
-
 .centre{
     position: relative;
     color: #E2DBC5;
@@ -280,4 +276,49 @@ a.show {
     color: white;
     line-height: 1.6;
     font-size: 0.9vw;
+}
+
+/* Mobile Version */
+
+@media only screen and (max-width: 600px) {
+    .body {
+        width: 80%;
+    }
+
+    .header {
+        position: sticky;
+        margin: 0%;
+        padding: 0%;
+        top: 0%;
+        aspect-ratio: none;
+        width: 100%;
+        z-index: 1;
+        text-align: center;
+        line-height: 50%;
+        text-shadow: 0.15vw 0.15vw #050717 ;
+        background-color: #18344c;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        color: #E2DBC5;
+    }
+
+
+    .header h1 {
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        font-size: 4.2vw;
+        font-weight: normal;
+        
+    }
+
+    .header p {
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        top: 60%;
+        font-size: 1.5vw;
+    }
+
 }
