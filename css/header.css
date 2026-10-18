@@ -117,6 +117,7 @@ h2 {
 }
 
 .wrapper-box {
+    margin: 0 auto;
     width: 75%;
     height: fit-content;
     justify-self: center;
