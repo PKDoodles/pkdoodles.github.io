@@ -1,0 +1,142 @@
+
+.background-image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.container {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;   
+    color: #E2DBC5;
+    font-size: large;
+}
+
+/* Container Sizes */
+
+.half {
+    width: 45%;
+}
+
+.two-thirds {
+    width: 55%;
+}
+
+.one-third {
+    width: 37%;
+}
+
+.one-quarter {
+    width: 20%;
+}
+
+/* Text Decorations */
+.light {
+color: #E2DBC5;
+}
+
+.bold {
+    font-size: large;
+    font-weight: bold;
+}
+
+.centered {
+    text-align: center;
+}
+
+.container h3 {
+    font-size: 50px;
+    color: #BFA07A;
+    text-shadow: 2px 2px #050717;
+    
+}
+
+.container h4 {
+    text-align: center;
+    width: 100%;
+    font-size: 35px;
+    text-decoration: underline;
+    color: #BFA07A;
+    text-shadow: 2px 2px #050717;
+}
+
+.video {
+    border: 4px solid #BFA07A;
+    width: 100%;
+    height: fit-content;
+}
+
+
+.contributions {
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    border: 48px solid transparent;
+}
+
+.gallery {
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 2%;
+}
+
+.gallery-photo {
+    border:#BFA07A 4px solid;
+    height: 300px;
+}
+
+.large {
+    height: 400px;
+}
+
+
+
+.divider {
+    border: 48px solid transparent;
+    border-image: url('../images/Border2.png') 72 round;
+    border-width: 0 0 48px 0;
+
+}
+
+
+.links-container {
+    width: 80%;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-width: 0 0 48px 0;
+}
+
+.links-container-tab {
+    width: 140px;
+    height: 100%;
+    border-radius: 5px ;
+    color: #050717;
+    text-align: center;
+    font-weight: 200;
+    background-color: #E2DBC5;
+    font-width: 100;
+    align-content: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.links-container-tab:hover {
+    background-color: #050717;
+    color: #E2DBC5;
+    cursor: pointer;
+}
+
+

@@ -1,58 +1,86 @@
 <!DOCTYPE html>
-<html lang="en"> 
-  <head>
-    <title>Luke Pierson - Portfolio Website</title>
-    <link rel="stylesheet" type="text/css" href="PortfolioCSS.css">
-    <link rel="stylesheet" type="text/css" href="AboutMeCss.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-    <meta name="Viewport" content="width=device-width, initial-scale=1">
-    <style>
-    body {
-      font-family:'Courier New', monospace;
-    }
-    </style>
-  </head>
-
-  <body style="background-color: #050717; padding: 0%; margin: 0%;">
-
-
-    <div class="header">
-    <h1>Luke Pierson</h1> 
-    <p>Game Designer</p>
-    </div>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-  <div class="underline"></div>
+    <title>Luke Pierson - About</title>
 
-  <div class="navbar">
-    <tabcontainer>
-      <a href="about.html">
-        <div class="AlignText">About</div>
-      </a>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+        font-family:'Courier New', monospace;
+        }
+    </style>
 
-      <a href="index.html">
-        <div class="AlignText">Portfolio</div>
-      </a>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css"> 
+    <link rel="stylesheet" href="css/p-overview.css"> 
+</head>
 
-      <a href="Luke Pierson CV.pdf" target="_blank">
-        <div class="AlignText">CV</div>
-      </a>
-    </tabcontainer>
-  </div>
-  
-    <div class="profilepic">
-      <pptext>Hello!</pptext>
-    </div>
 
-    <div class="aboutmetb" style="padding-bottom: 8%;">
-      <aboutmetext>
-        I'm Luke Pierson, an aspiring student studying Game Design and Production 
+<body class="background-image" style="background-image: url(images/DigitalArtPhotos/DigitalArtBackground.png);">
+
+    <!--   HEADER  -->
+    <header class="main-header">
+        <nav class="splash-screen">
+            
+
+            <container class="splash-screen-icons-container">
+                <a class="splash-screen-element fa-brands fa-linkedin" href="https://www.linkedin.com/in/luke-pierson-gd/"></a>
+                <a class="splash-screen-element fa fa-envelope" href="mailto:luke.pierson04@gmail.com"></a>
+            </container>
+
+            <div class="splash-screen-title">
+                <h1>LUKE PIERSON</h1>
+                <h2>GAME DESIGNER</h2>
+            </div>
+
+            <div class="splash-screen-icons-container">
+                <a class="splash-screen-element fa-brands fa-linkedin" href="https://www.linkedin.com/in/luke-pierson-gd/"></a>
+                <a class="splash-screen-element fa fa-envelope" href="mailto:luke.pierson04@gmail.com"></a>
+            </div>
+        
+        </nav>
+
+        <div class="underline"></div>
+
+        <div class="underline invisible"></div>
+
+        <nav class="navbar">
+
+            <a class="navbar-element" href="about.html"> About  </a>
+            <a class="navbar-element" href="index.html"> Portfolio  </a>
+            <a class="navbar-element" href="Luke Pierson CV.pdf" target="_blank"> CV  </a>
+
+        </nav>
+
+    </header>
+    <!--  END OF HEADER  -->
+
+    <!------------------------------------THE MEAT OF IT------------------------------------------------>
+
+    <section class="wrapper-box tight-rows thicker-sides">  
+        <container class="container divider">
+            <h3> ABOUT </h3> 
+            Luke Pierson - Board Game Enthusiast
+
+        </container>
+
+        <container class="container gallery">
+            <img class= "gallery-photo" src="images\AboutMePhotos\Myself.jpg" alt="border"></img>    
+        </container>
+
+        <!--  PROJECT DETAILS  -->
+        <container class="container two-thirds divider" style="text-align: center;">
+            <h4> Hello!! I am Luke! </h4>
+            <br> I'm Luke Pierson, an aspiring student studying Game Design and Production 
         at Staffordshire University. I have great passion for creating games that weave narratives,
         mechanics and environments into brilliant gameplay and amazing experiences! <br>
         <br>
         I mostly focus on narrative, pre-production and visual scripting as I have a love for creating more
-        experimental and innovative mechanics and stories. I also posees skills in scripting, level Design
-        and systems / mechanics design.  <br>
+        experimental and innovative mechanics and stories. I also posess skills in scripting, level Design
+        and systems design.  <br>
         <br>
         My favourite game is Tunic, the brilliance of the games knowledge-based progression as well
         as the overall beauty in the instruction book combined with intricate puzzles and combat make
@@ -60,14 +88,12 @@
         <br>
         Beyond video games I am a huge board game fanatic owning well over 20 games and play tabletop
          RPGs! I also love to travel and have been very fortunate to visit all sorts of places in my 
-         lifetime. My top trip is when I backpacked parts of Europe!
-      </aboutmetext>
-    </div>
+         lifetime. My top trip is when I backpacked parts of Europe! I really hope you enjoy my website!
+        </container>
 
-    <div class="facontainer">
-      <a href="https://www.linkedin.com/in/luke-pierson-034a5a215/" class="fa fa-linkedin" target="_blank"></a>
-      <a href="mailto:luke.pierson04@gmail.com" class="fa fa-envelope" target="_blank"></a>
-      <a href="https://www.instagram.com/pkd00dles/" class="fa fa-instagram" target="_blank"></a>
-    </div>
-    </body>
-    
+        <container class="container">
+            <h5>I CODED THIS WEBSITE MYSELF! - LUKE</h5>
+            <br>
+        </container>
+        </section>
+</body>

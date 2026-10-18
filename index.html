@@ -1,169 +1,181 @@
 <!DOCTYPE html>
-<html lang="en"> 
-  <head>
-    <title>Luke Pierson - Portfolio Website</title>
-    <link rel="stylesheet" type="text/css" href="PortfolioCSS.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-    <meta name="Viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Luke Pierson - Home</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
-    body {
-      font-family:'Courier New', monospace;
-    }
+        body {
+        font-family:'Courier New', monospace;
+        }
     </style>
-  </head>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css"> 
+    <link rel="stylesheet" href="css/main.css"> 
+</head>
 
 
-  <body style="background-color: #050717; padding: 0%; margin: 0%;">
+<body style="background: #050717;">
+    <video autoplay muted loop id="video-background">
+    <source src="videos\Background Visualiser\Background.mp4" type="video/mp4">
+    </video>
 
-    <div class="header">
-    <h1>Luke Pierson</h1> 
-    <p>Game Designer</p> 
-    </div>  
+    <!-- HEADER  -->
+    <header class="main-header">
+        <nav class="splash-screen">
+            
 
-    <div class="underline"></div>
+            <container class="splash-screen-icons-container">
+                <a class="splash-screen-element fa-brands fa-linkedin" href="https://www.linkedin.com/in/luke-pierson-gd/" target="_blank"></a>
+                <a class="splash-screen-element fa fa-envelope" href="mailto:luke.pierson04@gmail.com"></a>
+            </container>
 
-    <div class="navbar">
-      <tabcontainer>
-        <a href="about.html">
-          <div class="AlignText">About</div>
+            <div class="splash-screen-title">
+                <h1>LUKE PIERSON</h1>
+                <h2>GAME DESIGNER</h2>
+            </div>
+
+            <div class="splash-screen-icons-container">
+                <a class="splash-screen-element fa-brands fa-linkedin" href="https://www.linkedin.com/in/luke-pierson-gd/" target="_blank"></a>
+                <a class="splash-screen-element fa fa-envelope" href="mailto:luke.pierson04@gmail.com"></a>
+            </div>
+        
+        </nav>
+
+        <div class="underline"></div>
+
+        <div class="underline invisible"></div>
+
+        <nav class="navbar">
+
+            <a class="navbar-element" href="About.html"> About  </a>
+            <a class="navbar-element" href="index.html"> Portfolio  </a>
+            <a class="navbar-element" href="Luke Pierson CV.pdf" target="_blank"> CV  </a>
+
+        </nav>
+
+    </header>
+    <!--  END OF HEADER  -->
+
+    <!------------------------------------THE MEAT OF IT------------------------------------------------>
+    <section class="wrapper-box">  
+        <nav class="filter-container" id="myFilterContainer">
+                <button class="filter-container-tab active" onclick="filterSelection('all')" target="_blank">All </button>
+                <button class="filter-container-tab" onclick="filterSelection('UE5')" target="_blank"> Unreal Engine </button>
+                <button class="filter-container-tab" onclick="filterSelection('Unity')" target="_blank"> Unity </button>
+                <button class="filter-container-tab" onclick="filterSelection('Art')" target="_blank"> Art </button>
+                <button class="filter-container-tab" onclick="filterSelection('Other')" target="_blank"> Other Projects </button>
+        </nav>
+
+        <a class="project UE5" href="CHVMBER.html" style= "background-image: url('images/ChamberPhotos/ChamberThumbnail.png');">
+            <h4>OATCAKE INTERACTIVE <BR>
+            LEAD DESIGNER</h4> 
+            <h4>UNREAL ENGINE</h4>
         </a>
 
-        <a href="#" style="background-color: #E2DBC5; color: #050717;">
-          <div class="AlignText">Portfolio</div>
+        <a class="project Unity" href="PotionCommotion.html" style= "background-image: url('images/PotionCommotionPhotos/PotionCommotionThumbnail.png');"> 
+            <h3></h3>
+            <h4>PRODUCER / DESIGNER <BR>
+            UNITY</h4>
         </a>
 
-        <a href="Luke Pierson CV.pdf" target="_blank">
-          <div class="AlignText">CV</div>
+        <a class="project UE5" href="TalkingTanks.html" style= "background-image: url('images/TalkingTanksPhotos/TalkingTanksThumbnail.png');"> 
+            <h4>DESIGNER / PROGRAMMER</h4>
+            <h4>ARDUINO / UNREAL ENGINE / VR</h4>
         </a>
-      </tabcontainer>
-    </div>
 
-    <div class="filtercontainer" id="myFilterContainer">
-      <button class="filterbutton active" onclick="filterSelection('all')" target="_blank" style="text-shadow: none;"> All </button>
-      <button class="filterbutton" onclick="filterSelection('UE5')"  target="_blank" style="text-shadow: none;"> Unreal Engine  </button>
-      <button class="filterbutton" onclick="filterSelection('Unity')" target="_blank" style="text-shadow: none;"> Unity </button>
-      <button class="filterbutton" onclick="filterSelection('Art')" target="_blank" style="text-shadow: none;"> Art </button>
-      <button class="filterbutton" onclick="filterSelection('other')" target="_blank" style="text-shadow: none;"> Other Projects </button>
-    </div>
+        <!-- PROMO PROJECT 1 -->
+        <a class="project large" href="CHVMBER.html" style= "background-image: url('images/ChamberPhotos/ChamberThumbnail.png');">
+                <h4>OATCAKE INTERACTIVE <BR>
+                LEAD DESIGNER</h4> 
+                <h4>UNREAL ENGINE</h4> 
+        </a>
 
 
-    <div class="contentbox" style= "padding-bottom: 6%;">
+        <!-- PROMO PROJECT 2 -->
 
-      <a class ="project UE5" href= "Slap-Stick.html" style= "background-image: url('Photos/Thumbnails/GlassRoomThumbnail.png')">
-        <div class="centre"> Slap-Stick</div>
-        <div class="bottom-description"> Level Design / Blueprint Scripting / Quest Design / Gameplay Design</div>
-      </a>
-
-      <a class ="project Unity" href= "PotionCommotion.html" style= "background-image: url('Photos/Thumbnails/PotionCommotionThumbnailDark.png');">
-        <div class="centre">PotionCommotion</div>
-        <div class="bottom-description"> Producer / Designer / Excel / Unity / Management</div>
-      </a>
-
-
-      <a class ="project UE5" href= "TankGame!.html" style= "background-image: url('Photos/Thumbnails/TankGameThumbnail.png')">
-        <div class="centre"> Tank Game!</div>
-        <div class="bottom-description"> Level Design / Blueprint Scripting / VR Design / Arduino Usage</div>
-      </a>
-
-    <!--   LARGE ICONS   -->
-
-      <a class ="project" href= "Slap-Stick.html" style= "background-image: url('Photos/Thumbnails/GlassRoomThumbnail.png'); aspect-ratio: 8 / 6; width: 30%; margin: 0%; margin-bottom: 5%;">
-        <div class="centre"> Slap-Stick</div>
-        <div class="bottom-description"  style="top: 90%;;"> Level Design / Blueprint Scripting / Quest Design / Gameplay Design</div>
-      </a>
-
-      <a class ="project" href="PotionCommotion.html" style="background-image: url('Photos/Thumbnails/PotionCommotionThumbnail.png'); aspect-ratio: 8 / 6; width: 30%; margin: 0%; margin-bottom: 5%;">
-        <div class="centre"></div>
-        <div class="bottom-description"  style="top: 102%;"> Producer / Designer / Excel / Unity / Management</div>
-      </a>
-
-      <a class ="project" href= "TankGame!.html" style= "background-image: url('Photos/Thumbnails/TankGameThumbnail.png'); aspect-ratio: 8 / 6; width: 30%; margin: 0%; margin-bottom: 5%;">
-        <div class="centre"> Tank Game!</div>
-        <div class="bottom-description"  style="top: 90%;"> Level Design / Blueprint Scripting / VR Design / Arduino Usage</div>
-      </a>
-
-      <!--   LARGE ICONS   -->
-
-      <a class ="project UE5" href="Systems Design.html" style="background-image: url('Photos/Thumbnails/StarterIslandThumbnail.png');">
-        <div class="centre"> BellSong </div>
-        <div class="bottom-description"> Blueprint Scripting / AI / Animation Blending / Systems Design</div>
-      </a>
-      
-      <a class ="project UE5" href="UI Design.html" style="background-image: url('Photos/Thumbnails/UIThumbnail.png');">
-        <div class="centre"> Décoratifs </div>
-        <div class="bottom-description"> UE5 Widget System, Blueprinting, UI Asset Creation, Photoshop / Krita</div>
-      </a>
-
-      <a class ="project UE5"  href= "Sentinel.html" style= "background-image: url('Photos/Thumbnails/SentinelThumbnail.png')">
-        <div class="centre"> Sentinel</div>
-        <div class="bottom-description">Blueprint Scripting / Gameplay Design / Level and Environment Design</div>
-      </a>
-
-
-      <a class="project Unity" href= "HeartAttack.html" style= "background-image: url('Photos/Thumbnails/HeartAttackThumbnail.png')">
-        <div class="centre"> Heart Attack</div>
-        <div class="bottom-description"> Unity Engine / C# Scripting / Level Design / Systems Design</div>
-      </a>
-  
-      <a class="project UE5" href="SteamFunk.html" style="background-image: url('Photos/Thumbnails/TankThumbnail.png');">
-        <div class="centre"> SteamFunk </div>
-        <div class="bottom-description">Level and Environment Design / Gameplay Design / VFX / Blueprint Scripting</div>
-      </a>
+        <a class="project large" href="PotionCommotion.html" style= "background-image: url('images/PotionCommotionPhotos/PotionCommotionThumbnail.png');"> 
+            <h4>PRODUCER / DESIGNER</h4>
+            <h4>UNITY</h4>
+        </a>
 
 
 
-      <a class="project other" href="Mainspring.html" style="background-image: url('Photos/Thumbnails/MainspringThumbnail.png');">
-        <div class="centre"> Mainspring </div>
-        <div class="bottom-description">Pre-Production / Systems Design / Narrative Design / Production Management</div>
-      </a>
+        <!-- PROMO PROJECT 3 -->
+        <a class="project large" href="TalkingTanks.html" style= "background-image: url('images/TalkingTanksPhotos/TalkingTanksThumbnail.png');"> 
+            <h4>DESIGNER / PROGRAMMER</h4>
+            <h4>ARDUINO / UNREAL ENGINE / VR</h4>
+        </a>
 
 
-      <a class="project other" href="Avarice.html" style="background-image: url('Photos/Thumbnails/Avarice.png');">
-        <div class="centre"> Avarice </div>
-        <div class="bottom-description">Narrative Design and Research / Interactive Storytelling</div>
-      </a>
 
-    <a class="project Art" href = "Animation.html" style ="background-image: url('Photos/Thumbnails/AnimationThumbnail.png'); font-size: 3vw ;">
-      <div class="centre"> 3D Animation</div>
-      <div class="bottom-description"> Animation / Maya / Motionbuilder / Animation Principles / Mocap </div>
-    </a>
+        <!-- SMALLER PROJECTS -->
+        <a class="project UE5" href="Walking-the-King.html" style= "background-image: url('images/WalkingTheKingPhotos/WalkingTheKingThumbnail.png');"> 
+            <h4>OATCAKE INTERACTIVE <BR>
+            LEAD DESGINER</h4>
+            <h4> UNREAL ENGINE</h4>
+        </a>
 
-    <a class="project Art" href = "GraphicsDesign.html" style="background-image: url('Photos/Thumbnails/GraphicDesignThumbnail.png');">
-      <div class="centre"> Graphic Design </div>
-      <div class="bottom-description"> Photoshop / Krita / Physical Art / Typography / Adobe Illustrator </div>
-    </a>
+        <a class="project UE5" href="BellSong.html" style= "background-image: url('images/BellSongPhotos/BellSongThumbnail.png');">
+            <h4>DESIGNER / PROGRAMMER</h4>
+            <h4> UNREAL ENGINE</h4>   
+        </a>
 
-    <a class="project Art" href = "3DModelling.html" style="background-image: url('Photos/Thumbnails/3DModellingThumbnail.png');">
-      <div class="centre"> 3D Modelling </div>
-      <div class="bottom-description"> 3DS Max / ZBrush / Substance Painter / Photoshop</div>
-    </a>
+        <a class="project UE5" href="Decoratifs.html" style= "background-image: url('images/DecoratifsPhotos/DecoratifsThumbnail.png');">
+            <h4>UI DESIGNER / PROGRAMMER</h4>
+            <h4> UNREAL ENGINE</h4>
+        </a>
 
-    <a class="project Art" href = "2DArt.html" style="background-image: url('Photos/Thumbnails/2DArtThumbnail.png');">
-      <div class="centre"> 2D Art </div>
-      <div class="bottom-description"> Krita / Photoshop </div>
-    </a>
+        <a class="project UE5" href="SlapStick.html" style= "background-image: url('images/SlapStickPhotos/SlapStickThumbnail.png');">
+            <h4>DESIGNER / PROGRAMMER</h4>
+            <h4> UNREAL ENGINE</h4>
+        </a>
 
-    <a class="project other" href = "Website.html" style="background-image: url('Photos/WebsitePhotos/Code.png');">
-      <div class="centre"> This Website! </div>
-      <div class="bottom-description"> HTML / CSS / Visual Studio / General Programming</div>
-    </a>
+        <a class="project Other" href="MainSpring.html" style= "background-image: url('images/MainSpringPhotos/MainSpringThumbnail.png');">
+            <h4>
+            DESIGNER</h4>
+            <h4></h4>
+        </a>
+
+        <a class="project UE5" href="Sentinel.html" style= "background-image: url('images/SentinelPhotos/SentinelThumbnail.png');">
+            <h4>
+            DESIGNER / PROGRAMMER</h4>
+            <h4></h4>
+        </a>
+
+        <a class="project Unity" href="HeartAttack.html" style= "background-image: url('images/HeartAttackPhotos/HeartAttackThumbnail.png');">
+            <h4>
+            DESIGNER / PROGRAMMER</h4>
+            <h4></h4>
+        </a>
+
+        <a class="project Art" href="3DArt.html" style= "background-image: url('images/3DArtPhotos/3DArtThumbnail.png');">
+            <h4>3D ART / ANIMATIONS<BR>
+            <h4></h4>
+        </a>
+
+        <a class="project Art" href="DigitalArt.html" style= "background-image: url('images/DigitalArtPhotos/DigitalArtThumbnail.png');">
+            <h4>DIGITAL ART<BR>
+            <h4></h4>
+        </a>
 
 
-    </div>
+        <container class="container">
+            <h2>I CODED THIS WEBSITE MYSELF! - LUKE</h2>
+        </container>
 
-  
-    <div class="contentbox" style= "padding-bottom: 6%;">
+    </section>
 
-  </div>
 
-    <div class="filterbytags"></div>
-  <div class="facontainer">
-    <a href="https://www.linkedin.com/in/luke-pierson-034a5a215/" class="fa fa-linkedin" target="_blank"></a>
-    <a href="mailto:luke.pierson04@gmail.com" class="fa fa-envelope" target="_blank"></a>
-    <a href="https://www.instagram.com/pkd00dles/" class="fa fa-instagram" target="_blank"></a>
-  </div>  
+    
 
-  <script src="PortfolioJS.js"></script>
-  </body>
+    <script src="javascript/PortfolioJS.js"></script>
+
+</body>
+
+
 </html>

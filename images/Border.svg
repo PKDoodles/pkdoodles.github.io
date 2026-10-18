@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="128"
+   height="128"
+   viewBox="0 0 128 128"
+   version="1.1"
+   id="svg1"
+   inkscape:export-filename="Border1.png"
+   inkscape:export-xdpi="192"
+   inkscape:export-ydpi="192"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   sodipodi:docname="Border.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="px"
+     inkscape:zoom="2.9540685"
+     inkscape:cx="27.927586"
+     inkscape:cy="80.736111"
+     inkscape:window-width="1902"
+     inkscape:window-height="991"
+     inkscape:window-x="1"
+     inkscape:window-y="1"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer3" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Layer 1">
+    <path
+       id="rect4-8"
+       style="fill:none;stroke:#bfa07a;stroke-width:1.78317"
+       d="m 13.3895,13.389514 h 12.652592 l 6.897817,0 V 0.91398952 l 31.059959,0 31.059959,0 V 13.389514 l 6.897813,0 h 12.6526 v 12.652621 6.220813 h 12.35584 v 31.73705 31.73705 h -12.35584 v 6.220812 12.65262 h -12.6526 l -6.897813,0 v 12.47553 l -31.059959,0 -31.059959,0 v -12.47553 l -6.897817,0 H 13.3895 V 101.95786 95.737048 H 1.0336591 V 63.999998 32.262948 H 13.3895 v -6.220813 z"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccc" />
+    <path
+       id="rect3"
+       style="fill:none;stroke:#e2dbc5;stroke-width:3.269;stroke-dasharray:none;stroke-opacity:1"
+       d="M 27.456474,27.235592 V 8.3303106 H 64.000023 100.63739 V 27.235592 h 19.03233 v 36.764402 36.835686 h -19.12615 v 18.83399 H 64.000023 27.36266 V 100.74132 H 8.3303224 V 63.999994 27.235592 Z"
+       sodipodi:nodetypes="ccccccccccccccccc" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#bfa07a;stroke-width:3.10296;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4"
+       width="90.859581"
+       height="90.859581"
+       x="18.570204"
+       y="18.570206" />
+  </g>
+</svg>
